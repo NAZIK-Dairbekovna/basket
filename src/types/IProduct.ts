@@ -1,7 +1,7 @@
 export interface IProduct {
-    id?: number
-    title?: string
-    price?: number
+    id?: number;
+    title?: string;
+    price?: number;
 }
 
 export interface IBasket {
@@ -9,5 +9,5 @@ export interface IBasket {
     name: string;
     price: number;
     photo: any;
-    quantity?: any
+    quantity?: any;
 }
