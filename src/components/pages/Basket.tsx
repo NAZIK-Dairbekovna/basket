@@ -4,7 +4,7 @@ import {basket} from "../../store/reducers/ProductSlice";
 const Basket = () => {
     return (
         <div>
-            <div className='bg-amber-300 py-10'>
+            <div className='bg-amber-300'>
                 <div>
                     {basket.name}
                 </div>
